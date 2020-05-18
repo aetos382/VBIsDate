@@ -1,4 +1,4 @@
-Imports Microsoft.VisualStudio.TestTools.UnitTesting
+ï»¿Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
 Namespace NetCore
 
@@ -6,8 +6,8 @@ Namespace NetCore
     Public Class IsDateTest
 
         <TestMethod>
-        Sub DotNetCore‚ÌIsDate‚Í‘SŠp‚È‚ñ‚©â‘Î‚Éó‚¯“ü‚ê‚½‚è‚Í‚µ‚È‚¢()
-            Assert.IsFalse(IsDate("‚Q‚O‚Q‚O”N‚PŒ‚P“ú"))
+        Sub DotNetCoreã®IsDateã¯å…¨è§’æ•°å­—ãªã‚“ã‹çµ¶å¯¾ã«å—ã‘å…¥ã‚ŒãŸã‚Šã¯ã—ãªã„()
+            Assert.IsFalse(IsDate("ï¼’ï¼ï¼’ï¼å¹´ï¼‘æœˆï¼‘æ—¥"))
         End Sub
         
     End Class
